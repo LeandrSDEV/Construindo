@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    box-sizing: border-box;
+}
+
+
+
+h2 {
+    text-align: center;
+    margin: 50px 0px 50px 300px;
+    font-family: 'Dancing Script', cursive;
+    transform: scale(3);
+
+}
+
+p {
+    text-align: center;
+    font: normal 15pt arial;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+header {
+    background-color: #089cf1;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-image: url(./fundo1.jpg);
+    min-height: 100vh;
+    
+}
+
+
+.rato-senior1,
+.rato-senior2 {
+    margin: 13vh auto;
+    height: 40rem;
+    border: 2px solid rgb(255, 255, 255);
+    background: black;
+    color: white;
+    max-width: 120vh;
+}  
+
+#res {
+    background: white;
+    color: black;
+    width: 18rem;
+    border-radius: 15px;
+
+}
+
+.botaovalor {
+    text-align: center;
+    transform: scale(1.5);
+} 
+
+.coluna1 {
+    display: inline-block;
+    width: 53%;
+    transform: scale(1.2);
+    border-top: 3px solid white;
+    padding-bottom: 91px;
+}
+
+.coluna2 {
+    display: inline-block;
+    width: 45%;
+    margin-top: 50px;
+    padding-bottom: 60px;
+    transform: scale(1.2);
+    border: 3px solid white;
+}
+
+.lista {
+    margin: 0 33%;
+    
+    align-items: center;
+}
+
+option {
+   
+    width: 148px
+}
+
+#lobby {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    
+}
+
+.voltar {
+    transform: scale(0.5);
+    margin-left: 50px;
+}

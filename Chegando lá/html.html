@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Vamos codar </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/troca tela/css.css">
+    
+</head>
+
+<body>
+    <header>
+        <h1><strong>logo</strong></h1>
+        <div id="data-hora">
+            <span id="data-hora-atual"></span>
+        </div>
+    </header>
+
+    <section id="tela1" class="rato-senior1">
+        <div id="lobby">
+            <input type="image" src="./transferir.png" alt="Tela Inicio" class="voltar">
+            <h2>Calculadora de SOMAR</h2>
+         </div>  
+        
+        <div class="coluna1">
+            <p><strong> Qualquer valor !</strong></p>
+            <p>Primeiro valor: <input type="number" name="somar" id="vs1"></p>
+            <p class="sinals">+</p>
+            <p>Segundo valor: <input type="number" name="somar" id="vs2"></p>
+            <p>=</p>
+            <p id="res">Aguardando...</p>
+            <div class="botaovalor"><input type="button" value="Somar" onclick="somar()"></div>
+        </div>
+        <div class="coluna2">
+            <div>
+                <div>
+                    <p><strong>Tabuada até 15 !</strong></p>
+                    <p>Número: <input type="number" name="num" id="txtn">
+                    <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
+                </div>
+                <div class="lista">
+                    <select class="selsti" name="tabuada" id="seltab" size="16">
+                        <option>Digite um número acima:</option>
+                    </select>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
